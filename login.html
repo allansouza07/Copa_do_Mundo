@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual da copa</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <form>
+        <div class="login">
+            <div class="menu">
+                <div><label >Email ou CPF</label></div>
+                <input type="email" placeholder="Digite aqui:" id="emaillogin" name="email" onchange="validateFields()">
+            </div>
+            <div class="menu">
+                <div><label>Senha</label></div>
+                <input type="password" placeholder="Digite aqui sua senhs:" id="senhalogin" >
+            </div>
+
+            <div class="botao" >
+                <button type="button"  id="nitidezentrar" disabled>Entrar</button>
+            </div>
+
+            <div class="botao">
+                <button type="button"  id="nitidezentrar1" disabled>Cadastrar-se</button>
+            </div>
+            <div class="botao">
+                <a align="center" href="#">Esqueci a senha</a>
+            </div>
+    </div>
+    </form>
+    
+    <script src="js/login.js"></script>
+</body>
+</html>

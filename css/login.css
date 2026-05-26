@@ -1,0 +1,32 @@
+*{
+    margin:0;padding:0;box-sizing: border-box;
+}
+body{
+    background-color: rgba(209, 212, 214, 0.267);
+}
+.login {
+    background-color: white;
+    border: 1px solid black;
+    width:500px;
+    height:500px;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+   
+}
+.menu{
+    position: relative;
+    top:70px;
+    display: flex;
+    flex-direction: column;  
+    margin: 30px;
+}
+.botao{
+    position: relative;
+    top:80px;
+    display: flex;
+    flex-direction: column;  
+    margin: 10px;
+}
+

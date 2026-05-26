@@ -1,4 +1,136 @@
-*{
+@media screen and (max-width:1650px){
+    *{
+        margin: 0; padding:0; box-sizing: 0;
+    }
+    body{
+        
+    }
+    #logomenu{
+        position: absolute;
+        width:5%;
+        height:8%;
+        top:0px
+    }
+    #fifa{
+        position: absolute;
+        font-family: 'Bebas Neue', sans-serif;
+        letter-spacing: 2px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color:white;
+        left:78px;
+        top:16px;;
+    }
+    #brasilflag{
+        position: absolute;
+        width:2%;
+        height:2%;
+        left:1300px;
+        top:20px;
+    }
+    .menu1{
+        height:50px;
+        background-color: rgb(0, 0, 0);
+    }
+    .menu2{
+        height:70px;
+        background-color: rgb(35, 7, 133);
+    }
+
+    .cabecalho img{
+        position: absolute;
+        height:8%;
+        width:3%;
+        top:60px;
+        left:10px;
+    }
+    .meio img{
+        position: absolute;
+        display: flex;
+        left:900px;
+        justify-content: right;
+        width:40%;
+        height:90%;
+        
+    }
+    #logocopa2{
+        position: absolute;
+        width:20%;
+        height:70%;
+        top:160px;
+        left:1000px;
+    }
+    #textocopa{
+        position: absolute;
+        top:75px;
+        left:70px;
+        color: white;
+    }
+    .menu2{
+        display:flex;
+        align-items: center;
+        justify-content: right;
+    }
+    .menu2 p{
+        color:white;
+        margin:20px;
+    }
+    .menu2 p:hover{
+        text-decoration: none;
+        color:yellow;
+    }
+    .mensagem h1{
+        position: absolute;
+        top:210px;
+        left:180px;
+        font-size:30px;
+    }
+    .mensagem h3{
+        position: absolute;
+        top:250px;
+        left:270px;
+    }
+    #jogostext{
+        position: absolute;
+        top:350px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        left:30px;
+    }
+    .jogos{
+        position: absolute;
+        top:370px;
+        left:400px;
+        left:0px;
+        display: flex;
+    }
+    .jogos div{
+        background-color: rgb(226, 229, 231);
+        height:100px;
+        width:200px;
+        margin:30px;
+        border: 2px solid gray;
+    
+    }
+    #EUA{
+        position: absolute;
+        left:0px;
+        top:140px;
+        height:100px;
+        width:200px;
+    }
+    #Marrocos{
+        position: absolute;
+        left:260px;
+        top:140px;
+        height:100px;
+        width:200px;
+    }
+}   
+   
+
+@media screen and (min-width:1650px){
+    *{
     margin: 0; padding:0; box-sizing: 0;
 }
 body{
@@ -6,9 +138,9 @@ body{
 }
 #logomenu{
     position: absolute;
-    width:5%;
-    height:8%;
-    top:0px
+    width:4%;
+    height:6%;
+    top:-6px
 }
 #fifa{
     position: absolute;
@@ -17,16 +149,26 @@ body{
     font-weight: bold;
     text-transform: uppercase;
     color:white;
-    left:78px;
-    top:16px;;
+    left:80px;
+    top:10px;
+    font-size: 25px;
 }
+#login{
+    position: absolute ;
+    width:1.5%;
+    height:3%;
+    left:1720px;
+    top:15px;
+}
+
 #brasilflag{
     position: absolute;
     width:2%;
     height:2%;
-    left:1300px;
+    left:1800px;
     top:20px;
 }
+
 .menu1{
     height:50px;
     background-color: rgb(0, 0, 0);
@@ -48,7 +190,7 @@ body{
     display: flex;
     left:900px;
     justify-content: right;
-    width:40%;
+    
     height:90%;
     
 }
@@ -57,12 +199,21 @@ body{
     width:20%;
     height:70%;
     top:160px;
-    left:1000px;
+    left:1450px;
+    
+}
+#copa{
+    width:800px;
+    left:1300px;
+}
+#logocopa{
+    height:6%;
+    width:3%;
 }
 #textocopa{
     position: absolute;
     top:75px;
-    left:70px;
+    left:85px;
     color: white;
 }
 .menu2{
@@ -81,26 +232,26 @@ body{
 .mensagem h1{
     position: absolute;
     top:210px;
-    left:180px;
-    font-size:30px;
+    left:280px;
+    font-size:40px;
 }
 .mensagem h3{
     position: absolute;
-    top:250px;
-    left:270px;
+    top:270px;
+    left:470px;
 }
 #jogostext{
     position: absolute;
-    top:350px;
+    top:450px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-    left:30px;
+    font-size: 35px;
+    left:140px;
 }
 .jogos{
     position: absolute;
-    top:370px;
+    top:500px;
     left:400px;
-    left:0px;
+    left:100px;
     display: flex;
 }
 .jogos div{
@@ -112,6 +263,9 @@ body{
 }
 .jogos p{
     margin:10px;
+}
+.jogos p{
+    margin:12px;
 }
 #EUA{
     position: absolute;
@@ -127,19 +281,4 @@ body{
     height:100px;
     width:200px;
 }
-#mais{
-    position: absolute;
-    left:530px;
-    top:140px;
-    height:100px;
-    width:200px;
-    font-size: 90px;
-
-}
-.bandeira{
-    position: relative;
-    width:30px;
-    height:30px;
-    
-    
 }
