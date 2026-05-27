@@ -4,6 +4,32 @@
 body{
     background-color: rgba(209, 212, 214, 0.267);
 }
+.head{
+    align-items: center;
+    display: flex;
+}
+#manual{
+    position: absolute;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    left:20px;
+    font-size: 20px;
+}
+#ambiente_seguro{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    left:1150px;
+    font-size:15px;
+}
+#acesse{
+    margin: 10px;
+    font-size: 20px;
+    top:5px;
+}
 .login {
     background-color: white;
     border: 1px solid black;
@@ -13,6 +39,7 @@ body{
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
+    box-shadow: inset;
    
 }
 .menu{
@@ -28,5 +55,19 @@ body{
     display: flex;
     flex-direction: column;  
     margin: 10px;
+    background-color: rgb(4, 6, 131);
 }
-
+.botao p{
+    color:white;
+}
+.botaosenha{
+    position: relative;
+    top:80px;
+    left:200px;
+    display: flex;
+}
+.head{
+    background-color: black;
+    height:50px;
+    background-image: url("../img/tema_copa.jpg");
+}
