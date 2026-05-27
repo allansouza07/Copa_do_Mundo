@@ -7,10 +7,17 @@
     }
     #logomenu{
         position: absolute;
-        width:5%;
-        height:8%;
+        width:4%;
+        height:5%;
         top:0px
     }
+    #login{
+    position: absolute ;
+    width:1.5%;
+    height:3%;
+    left:1520px;
+    top:15px;
+}
     #fifa{
         position: absolute;
         font-family: 'Bebas Neue', sans-serif;
@@ -18,14 +25,18 @@
         font-weight: bold;
         text-transform: uppercase;
         color:white;
-        left:78px;
+        left:75px;
         top:16px;;
     }
+    #logocopa{
+    height:6%;
+    width:3%;
+}
     #brasilflag{
         position: absolute;
         width:2%;
         height:2%;
-        left:1300px;
+        left:1580px;
         top:20px;
     }
     .menu1{
@@ -54,11 +65,19 @@
         
     }
     #logocopa2{
+    position: absolute;
+    width:40%;
+    height:350%;
+    top:-200px;
+    left:1200px;
+    
+    }
+    #copa{
+        width:600px;
+        height: 800px;;
+        left:1050px;
         position: absolute;
-        width:20%;
-        height:70%;
-        top:160px;
-        left:1000px;
+        top:-250px;
     }
     #textocopa{
         position: absolute;
@@ -126,6 +145,14 @@
         height:100px;
         width:200px;
     }
+    #vermais{
+    position: absolute;
+    left:530px;
+    top:140px;
+    height:100px;
+    width:200px;
+    font-size:25px;
+}
 }   
    
 
