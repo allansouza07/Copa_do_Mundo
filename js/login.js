@@ -15,3 +15,5 @@ senha.addEventListener("input", ()=> {
         cadastro.disabled=true;s
     }
 });
+
+btn.add
