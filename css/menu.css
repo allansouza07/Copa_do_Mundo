@@ -5,11 +5,44 @@
     body{
         
     }
+    #album{
+        top:15px;
+        position: absolute;
+        color:white;
+        left:1000px;
+    }
     #logomenu{
         position: absolute;
         width:5%;
         height:8%;
         top:0px
+    }
+    .sidebar{
+        position: fixed;
+        top:0;
+        left:-250px;
+        width:250px;
+        height:100vh;
+        background-color: #111;
+        display: grid;
+        grid-template-rows: repeat(7,70px);
+        padding-top: 100px;
+        transition: 0.5s;
+        z-index: 999;
+    }
+    .sidebar.active{
+        left: 0;
+    }
+    .sidebar a{
+        color: white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+    .sidebar a:hover{
+        background-color: #1f1f1f;
     }
     #login{
     position: absolute ;
@@ -38,7 +71,7 @@
     #brasilflag{
         position: absolute;
         width:2%;
-        height:2%;
+        height:2.5%;
         left:1280px;
         top:20px;
     }
