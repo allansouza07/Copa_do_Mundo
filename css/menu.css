@@ -297,13 +297,13 @@
         
     }
     #logocopa2{
-        position: absolute;
         width:50%;
         height:450%;
         top:-200px;
         left:1225px; 
     }
     #copa{
+        display: grid;
         left:1050px;
         height:100vh;
         width: 755px;
