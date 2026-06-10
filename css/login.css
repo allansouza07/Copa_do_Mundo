@@ -16,7 +16,8 @@ body{
     text-transform: uppercase;
     color: white;
     left:20px;
-    font-size: 20px;
+    font-size: 25px;
+    top:10px;
 }
 #ambiente_seguro{
     position: absolute;
@@ -56,6 +57,7 @@ body{
     flex-direction: column;  
     margin: 10px;
     background-color: rgb(4, 6, 131);
+    justify-content: center;
 }
 .botao p{
     color:white;
