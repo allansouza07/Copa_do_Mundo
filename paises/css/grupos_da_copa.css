@@ -3,7 +3,7 @@
         margin: 0; padding:0; box-sizing: 0;
     }
     .cabecalho{
-        
+         
     }
     #album{
         top:15px;
@@ -257,4 +257,263 @@
         color: white;
     }
 
+}
+@media screen and (max-width:1700px) {
+      *{
+        margin: 0; padding:0; box-sizing: 0;
+    }
+    .cabecalho{
+         
+    }
+    #album{
+        top:15px;
+        position: absolute;
+        color:white;
+        left:1000px;
+    }
+    #logomenu{
+        position: absolute;
+        width:5%;
+        height:8%;
+        top:0px
+    }
+    .sidebar{
+        position: fixed;
+        top:0;
+        left:-250px;
+        width:250px;
+        height:100vh;
+        background-color: #111;
+        display: grid;
+        grid-template-rows: repeat(7,70px);
+        padding-top: 100px;
+        transition: 0.5s;
+        z-index: 999;
+    }
+    .sidebar.active{
+        left: 0;
+    }
+    .sidebar a{
+        color: white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+    .sidebar a:hover{
+        background-color: #1f1f1f;
+    }
+    #login{
+    position: absolute ;
+    width:1.5%;
+    height:3%;
+    left:1520px;
+    top:15px;
+}
+    #fifa{
+        position: absolute;
+        font-family: 'Bebas Neue', sans-serif;
+        letter-spacing: 2px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color:white;
+        left:75px;
+        top:16px;;
+    }
+    #login{
+    position: absolute ;
+    width:2%;
+    height:4%;
+    left:1220px;
+    top:15px;
+}
+    #brasilflag{
+        position: absolute;
+        width:2%;
+        height:2.5%;
+        left:1280px;
+        top:20px;
+    }
+    .menu1{
+        height:50px;
+        background-color: rgb(0, 0, 0);
+        
+    }
+    .menu2{
+        height:70px;
+        background-color: rgb(35, 7, 133);
+        
+    }
+
+    .cabecalho img{
+        position: absolute;
+        height:8%;
+        width:3%;
+        top:60px;
+        left:10px;
+    }
+    .meio img{
+        position: absolute;
+        display: flex;
+        left:910px;
+        justify-content: right;
+        width:450px;
+        height:600px;
+        top:-250px;
+        
+    }
+    #logocopa2{
+        position: absolute;
+        width:30%;
+        height:270%;
+        top:-200px;
+        left:1025px; 
+    }
+   
+    #textocopa{
+        position: absolute;
+        top:75px;
+        left:70px;
+        color: white;
+    }
+    .menu2{
+        display:flex;
+        align-items: center;
+        justify-content: right;
+    }
+    .menu2 p{
+        color:white;
+        margin:20px;
+    }
+    .menu2 p:hover{
+        text-decoration: none;
+        color:yellow;
+    }
+
+    #participantes{
+        position: relative;
+        font-size:30px;
+        top:50px;
+    }
+
+    .grupos{
+        position: relative;
+        justify-content: center;
+        top:100px;
+        border: 2px solid black;
+        background-color: black;
+        color:white;
+        margin:10px;
+    }
+    
+   /* GRUPO A */
+    #grupoA{
+        display: flex;
+        background-color:rgb(94, 115, 211);
+        border-top: 1px solid black;
+        height:250px;
+        
+    }
+    #grupoA img{
+        margin:15px;
+    }
+    #grupoA p{
+        position: relative;
+        display: flex;
+        left:-170px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #grupoA a{
+        color: white;
+    }
+
+    /* GRUPO B */
+     #grupoB{
+        display: flex;
+        background-color: rgb(50, 67, 143);
+        border-top: 1px solid black;
+        height:250px;
+        
+    }
+    #grupoB img{
+        margin:15px;
+    }
+    #grupoB p{
+        position: relative;
+        display: flex;
+        left:-170px;
+        font-size: 20px; 
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #grupoB a{
+        color: white;
+    }
+
+     /* GRUPO C */
+     #grupoC{
+        display: flex;
+        background-color: rgb(94, 115, 211);
+        border-top: 1px solid black;
+        height:250px;
+        
+    }
+    #grupoC img{
+        margin:15px;
+    }
+    #grupoC p{
+        position: relative;
+        display: flex;
+        left:-170px;
+        font-size: 20px; 
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #grupoC a{
+        color: white;
+    }
+
+     /*GRUPO D */
+     #grupoD{
+        display: flex;
+        background-color: rgb(48, 140, 216);
+        border-top: 1px solid black;
+        height:250px;
+        
+    }
+    #grupoD img{
+        margin:15px;
+    }
+    #grupoD p{
+        position: relative;
+        display: flex;
+        left:-170px;
+        font-size: 20px; 
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #grupoD a{
+        color: white;
+    }
+
+    /*GRUPO E */
+       #grupoE{
+        display: flex;
+        background-color: rgb(50, 67, 143);
+        border-top: 1px solid black;
+        height:250px;
+        
+    }
+    #grupoE img{
+        margin:15px;
+    }
+    #grupoE p{
+        position: relative;
+        display: flex;
+        left:-170px;
+        font-size: 20px; 
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #grupoE a{
+        color: white;
+    }
 }
