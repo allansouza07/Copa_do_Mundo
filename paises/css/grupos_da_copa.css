@@ -374,11 +374,14 @@
         color: white;
     }
      #rodape{
+        position: relative;
         display:flex;
         justify-content: center;
         align-items: center;
         height:100px;
         background-color: black;
+        z-index: 999;
+        top:10000px;
     }
 
 }

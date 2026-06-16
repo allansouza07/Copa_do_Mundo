@@ -7,6 +7,9 @@ const cadastro = document.getElementById("nitidezentrar1");
 function mudar_pagina(){
     window.location.href ="cadastro.html";
 }
+function mudar_pagina2(){
+    window.location.href ="index.html";
+}
 
 
 senha.addEventListener("input", ()=> {

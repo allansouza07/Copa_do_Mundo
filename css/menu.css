@@ -189,6 +189,13 @@
     width:200px;
     font-size:25px;
 }
+  #rodape{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:100px;
+        background-color: black;
+    }
     
    
 }
@@ -285,13 +292,16 @@
         top:60px;
         left:10px;
     }
+    .meio{
+        height:700px;
+    }
     .meio img{
         position: absolute;
         display: flex;
         left:910px;
         justify-content: right;
         width:450px;
-        height:600px;
+        height:700px;
         top:-250px;
         
     }
@@ -302,9 +312,7 @@
         top:-200px;
         left:1025px; 
     }
-    #copa{
-        
-    }
+    
     #textocopa{
         position: absolute;
         top:75px;
@@ -382,6 +390,16 @@
     width:200px;
     font-size:25px;
 }
+ #rodape{
+        position: relative;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:100px;
+        background-color: black;
+        z-index: 999;
+        
+    }
 }
 @media screen and (min-width: 1600px) {
     
@@ -577,5 +595,12 @@
     width:200px;
     font-size:25px;
 }
+  #rodape{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:100px;
+        background-color: black;
+    }
    
 }
