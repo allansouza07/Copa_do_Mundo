@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Layout</title>
+<link rel="stylesheet" href="css/bolao.css">
+<link rel="shortcut icon" href="img/Logo_copa_2026.png" type="image/png">
+
+
+
+</head>
+<body> 
+    <header class="cabecalho">
+         <!-----PRIMEIRA COLUNA DE ELEMENTOS-->
+        <div class="menu1">
+            <a href="#" onclick="abrir()"><img id="logomenu" src="img/icone menu.jpg" alt="menu"></a>
+            <p id="fifa">FIFA</p>
+            <a id ="album" align="center" href="https://panini.com.br/colecionaveis/fifa-world-cup-2026?srsltid=AfmBOoopSrU4wVV-UUBN8fXuKHiYpgszlEyc9m-Qz0aW_QAbXJjcImAJ" target="_blank">garanta seu álbum oficial!</a>
+            <a href="login_bolao.html" target="_blank"><img id="login" src="img/icone_pessoa.png" ></a>
+            <img id="brasilflag" src="img/brasilflag (1).png">
+        </div>
+        <!-----SIDEBAR-->
+        <div class="sidebar" id= "sidebar">
+            <a href="index.html">INÍCIO</a>
+            <a href="">CALENDÁRIO</a>
+            <a href="estadios/estadios.html">ESTÁDIOS</a>
+            <a href="paises/grupos_da_copa.html">PAÍSES</a>
+            <a href="">CURIOSIDADES</a>
+            <a href="">RANKING FIFA</a>
+            <a href="login_bolao.html" target="_blank">BOLÃO</a>
+            
+        </div>
+       
+         <!-----SEGUNDA COLUNA DE ELEMENTOS-->
+        <img id="logocopa" src="img/Logo_copa_2026.png" alt="logocopa">
+        <p id="textocopa">COPA DO MUNDO 2026</p>
+        <!--- LINKS DE OUTRAS PÁGINAS DA WEB-->
+        <nav class="menu2">
+            <a href="#" target ="_blank"><p>CALENDÁRIO</p></a> 
+            <P> | </P>
+            <a href="estadios/estadios.html" target ="_blank"><p>ESTÁDIOS</p></a>
+            <P> | </P>
+            <a href="paises/grupos_da_copa.html" target ="_blank"><P>PAÍSES</P></a>
+            <P> | </P>
+            <a href="#" target ="_blank"><P>CURIOSIDADES</P></a>
+            <p> | </p>
+            <a href="#" target ="_blank" ><p>RANKING FIFA</p></a>
+
+        </nav>
+    </header>
+
+    <h1 align="center" style="font-size:40px;">FAÇA O SEU BOLÃO DA COPA DO MUNDO!</h1>
+    <br>
+    <br>
+    <br>
+
+<div class="container">
+
+    <div class="menu">
+       <div class="texto">
+            <label>Quem será o melhor jogador da copa?</label>
+            <input type="text" id="pergunta" placeholder="Digite aqui">
+            <button onclick="escrever_nome()" type="submit" id="botao1">Confirmar</button>
+
+       </div>
+
+        <div class="texto">
+            <label>Quem será o artilheiro da copa?</label>
+            <input type="text" id="pergunta2" placeholder="Digite aqui">
+            <button onclick="escrever_nome2()" type="submit" id="botao2">Confirmar</button>
+
+       </div>
+
+       <div class="texto">
+            <label>Qual seleção será a campeã da copa?</label>
+            <input type="text" id="pergunta3" placeholder="Digite aqui">
+            <button onclick="escrever_nome3()" type="submit" id="botao3">Confirmar</button>
+
+       </div>
+       
+       <div class="texto">
+            <label>Qual seleção será a seleção vice-campeã?</label>
+            <input type="text" id="pergunta4" placeholder="Digite aqui">
+            <button onclick="escrever_nome4()" type="submit" id="botao4">Confirmar</button>
+
+       </div>
+
+        <div class="texto">
+            <label>Quem será o artilheiro da seleção brasileira?</label>
+            <input type="text" id="pergunta5" placeholder="Digite aqui">
+            <button onclick="escrever_nome5()" type="submit" id="botao5">Confirmar</button>
+
+       </div>
+    </div>
+
+    <div class="conteudo">
+        <h1>BOLÃO</h1>
+        <br>
+        <div class="texto2">
+            <p>Melhor jogador da Copa:</p>
+            <p id="melhor_jogador" style="color:rgb(102, 8, 8); font-size:20px;"></p>
+        </div>
+        <hr>
+        <div class="texto2">
+            <p>Artilheiro da Copa:</p>
+            <p id="artilheiro_jogador" style="color:rgb(102, 8, 8); font-size:20px;"></p>
+        </div>
+        <hr>
+        <div class="texto2">
+            <p>Campeão da Copa:</p>
+            <p id="campeao_copa" style="color:rgb(102, 8, 8); font-size:20px;"></p>
+        </div>
+        <hr>
+        <div class="texto2">
+            <p>Vice-campeã da Copa:</p>
+            <p id="vice_campea" style="color:rgb(102, 8, 8); font-size:20px;"></p>
+        </div>
+        <hr>
+        <div class="texto2">
+            <p>Melhor jogador do Brasil na Copa:</p>
+            <p id="melhor_jogador_brasil" style="color:rgb(102, 8, 8); font-size:20px;"></p>
+        </div>
+        <hr>
+        <button  onclick="palpitar()" type="button" >PALPITAR</button>
+        <p id="palpite" style="color:rgb(5, 46, 11); font-size:20px;"></p>
+    </div>
+
+</div>
+    <footer id="rodape">
+        <p style="color:white">Desenvolvido por alunos do Instituto federal de São Paulo:</p>
+        <p style="color:white">Allan de Souza, João Osório, Kelvis e Sarah Alencar </p>
+    </footer>
+    <script src="js/bolao.js"></script>
+</body>
+</html>

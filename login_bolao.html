@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="shortcut icon" href="img/Logo_copa_2026.png" type="image/png">
+    
+
+</head>
+<body>
+    <div class="head">
+        <a href="index.html"><p id ="manual"><b>MANUAL DA COPA</b></p></a>
+        <p id="ambiente_seguro"><b>Ambiente 100% seguro</b></p>
+    </div>
+    <form>
+        <div class="login">
+            <p align="center" id="acesse">ACESSE SUA CONTA</p>
+            <div class="menu">
+                <div><label >Email</label></div>
+                <input type="email" placeholder="Digite aqui seu email:" id="emaillogin" name="email" onchange="validateFields()">
+            </div>
+            <div class="menu">
+                <div><label>Senha</label></div>
+                <input type="password" placeholder="Digite aqui sua senhs:" id="senhalogin" >
+            </div>
+
+            <div class="botao" >
+                <button onclick="mudar_pagina3()" type="button"  id="nitidezentrar" disabled><p style="color:black;">Entrar</p></button>
+            </div>
+
+            <div class="botao">
+                <button onclick="mudar_pagina()" type="button"  id="nitidezentrar1" ><p style="color:black;">Cadastrar-se</p></button>
+            </div>
+            <div class="botaosenha">
+                <a href="#">Esqueci a senha</a>
+            </div>
+    </div>
+    </form>
+    
+    <script src="js/login.js"></script>
+</body>
+</html>

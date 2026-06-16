@@ -10,6 +10,12 @@ function mudar_pagina(){
 function mudar_pagina2(){
     window.location.href ="index.html";
 }
+function mudar_pagina3(){
+    window.location.href ="bolao.html";
+}
+function mudar_pagina4(){
+    window.location.href ="login_bolao.html";
+}
 
 
 senha.addEventListener("input", ()=> {

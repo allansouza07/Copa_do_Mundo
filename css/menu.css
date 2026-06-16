@@ -307,10 +307,10 @@
     }
     #logocopa2{
         position: absolute;
-        width:30%;
+        width:27%;
         height:270%;
         top:-200px;
-        left:1025px; 
+        left:1000px; 
     }
     
     #textocopa{
@@ -389,6 +389,23 @@
     height:100px;
     width:200px;
     font-size:25px;
+}
+#bolao{
+    position:relative;
+    top:300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    left:-520px;
+    border-radius: 50px;
+    background-color: rgb(19, 54, 151);
+    height:60px;
+}
+#botao_bolao{
+    font-size:15px;
+    background-color: rgb(19, 54, 151);
+    color:white
+
 }
  #rodape{
         position: relative;
@@ -602,5 +619,22 @@
         height:100px;
         background-color: black;
     }
+    #bolao{
+    position:relative;
+    top:300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    left:-520px;
+    border-radius: 50px;
+    background-color: rgb(19, 54, 151);
+    height:60px;
+}
+#botao_bolao{
+    font-size:15px;
+    background-color: rgb(19, 54, 151);
+    color:white
+
+}
    
 }
