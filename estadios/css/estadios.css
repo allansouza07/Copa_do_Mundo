@@ -1,0 +1,337 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#475481;
+    color:white;
+}
+#album{
+        top:15px;
+        position: absolute;
+        color:white;
+        left:1000px;
+    }
+    #logomenu{
+        position: absolute;
+        width:5%;
+        height:8%;
+        top:0px
+    }
+    .sidebar{
+        position: fixed;
+        top:0;
+        left:-250px;
+        width:250px;
+        height:100vh;
+        background-color: #111;
+        display: grid;
+        grid-template-rows: repeat(7,70px);
+        padding-top: 100px;
+        transition: 0.5s;
+        z-index: 999;
+    }
+    .sidebar.active{
+        left: 0;
+    }
+    .sidebar a{
+        color: white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+    .sidebar a:hover{
+        background-color: #1f1f1f;
+    }
+    #login{
+    position: absolute ;
+    width:1.5%;
+    height:3%;
+    left:1520px;
+    top:15px;
+}
+    #fifa{
+        position: absolute;
+        font-family: 'Bebas Neue', sans-serif;
+        letter-spacing: 2px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color:white;
+        left:75px;
+        top:16px;;
+    }
+    #login{
+    position: absolute ;
+    width:2%;
+    height:4%;
+    left:1220px;
+    top:15px;
+}
+    #brasilflag{
+        position: absolute;
+        width:2%;
+        height:2.5%;
+        left:1280px;
+        top:20px;
+    }
+    .menu1{
+        height:50px;
+        background-color: rgb(0, 0, 0);
+        z-index: 2;
+    }
+    .menu2{
+        height:70px;
+        background-color: rgb(35, 7, 133);
+    }
+
+    .cabecalho img{
+        position: absolute;
+        height:8%;
+        width:3%;
+        top:60px;
+        left:10px;
+    }
+    .meio img{
+        position: absolute;
+        display: flex;
+        left:910px;
+        justify-content: right;
+        width:450px;
+        height:600px;
+        top:-250px;
+        
+    }
+    #logocopa2{
+        position: absolute;
+        width:30%;
+        height:270%;
+        top:-200px;
+        left:1025px; 
+    }
+    #textocopa{
+        position: absolute;
+        top:60px;
+        left:70px;
+        color: white;
+    }
+    .menu2{
+        display:flex;
+        align-items: center;
+        justify-content: right;
+    }
+    .menu2 p{
+        color:white;
+        margin:20px;
+    }
+    .menu2 p:hover{
+        text-decoration: none;
+        color:yellow;
+    }
+    .mensagem h1{
+        position: absolute;
+        top:210px;
+        left:180px;
+        font-size:30px;
+    }
+    .mensagem h3{
+        position: absolute;
+        top:250px;
+        left:270px;
+    }
+#texto_estadios{
+    display: flex;
+    justify-content: center;
+    top:80px;
+    position: relative;
+}
+#texto_estadios h1{
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+main{
+    width:90%;
+    margin:auto;
+    padding:50px 0;
+}
+
+.pais{
+    margin-bottom:80px;
+}
+
+
+
+
+
+.grid-estadios{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#151b31;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.imagem-estadio{
+    width:100%;
+    height:220px;
+    overflow:hidden;
+}
+
+.imagem-estadio img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition:.4s;
+}
+
+.card:hover .imagem-estadio img{
+    transform:scale(1.08);
+}
+.titulo-pais1{
+    font-size:35px;
+    margin-bottom:30px;
+    border-left:8px solid #00c3ff;
+    padding-left:15px;
+    color:rgb(13, 13, 61);
+}
+.placeholder1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#1e2745;
+    color:#00c3ff;
+    font-size:20px;
+    font-weight:bold;
+    border-bottom:2px solid #00c3ff;
+}
+.titulo-pais2{
+    font-size:35px;
+    margin-bottom:30px;
+    border-left:8px solid #096b21;
+    padding-left:15px;
+    color:rgb(87, 199, 13);
+}
+.placeholder2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#1e2745;
+    color: #096b21;
+    font-size:20px;
+    font-weight:bold;
+    border-bottom:2px solid #096b21;
+}
+
+.titulo-pais3{
+    font-size:35px;
+    margin-bottom:30px;
+    border-left:8px solid #ce1414;
+    padding-left:15px;
+    color:rgb(97, 7, 7);
+}
+.placeholder3{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#1e2745;
+    color:rgb(97, 7, 7);
+    font-size:20px;
+    font-weight:bold;
+    border-bottom:2px solid rgb(97, 7, 7);
+}
+
+.conteudo{
+    padding:20px;
+}
+
+.card h3{
+    color:#00c3ff;
+    margin-bottom:5px;
+}
+
+.apelido{
+    color:#aaa;
+    margin-bottom:15px;
+    font-style:italic;
+}
+
+.info{
+    margin-bottom:8px;
+    line-height:1.5;
+}
+
+.capacidade{
+    display:inline-block;
+    margin-top:15px;
+    padding:8px 15px;
+    background:#00c3ff;
+    color:#000;
+    border-radius:30px;
+    font-weight:bold;
+}
+.capacidade2{
+    display:inline-block;
+    margin-top:15px;
+    padding:8px 15px;
+    background:#096b21;
+    color:#000;
+    border-radius:30px;
+    font-weight:bold;
+}
+.capacidade3{
+    display:inline-block;
+    margin-top:15px;
+    padding:8px 15px;
+    background:rgb(97, 7, 7) ;
+    color:#000;
+    border-radius:30px;
+    font-weight:bold;
+}
+footer{
+    text-align:center;
+    padding:25px;
+    background:#070b16;
+    color:#aaa;
+}
+
+@media(max-width:768px){
+
+    header h1{
+        font-size:35px;
+    }
+
+    header p{
+        font-size:16px;
+    }
+
+    .titulo-pais{
+        font-size:28px;
+    }
+     #rodape{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:100px;
+        background-color: black;
+    }
+
+}

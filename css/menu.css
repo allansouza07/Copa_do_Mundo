@@ -1,129 +1,196 @@
 
 @media screen and (max-width: 768px) {
-
-    body {
-        overflow-x: hidden;
+    *{
+        margin: 0; padding:0; box-sizing: border-box;
     }
-
-    .menu1 {
-        height: 60px;
+    body{
+        
+    } 
+    #album{
+        top:15px;
+        position: absolute;
+        color:white;
+        left:1000px;
+    }
+    #logomenu{
+        position: absolute;
+        width:5%;
+        height:8%;
+        top:0px
+    }
+    .sidebar{
+        position: fixed;
+        top:0;
+        left:-250px;
+        width:250px;
+        height:100vh;
+        background-color: #111;
+        display: grid;
+        grid-template-rows: repeat(7,70px);
+        padding-top: 100px;
+        transition: 0.5s;
+        z-index: 999;
+    }
+    .sidebar.active{
+        left: 0;
+    }
+    .sidebar a{
+        color: white;
+        text-decoration: none;
         display: flex;
         align-items: center;
-        justify-content: space-around;
-        padding: 0 10px;
+        padding-left: 20px;
+        font-size: 18px;
     }
-
-    #logomenu,
-    #album,
-    #fifa,
-    #login,
-    #brasilflag {
-        position: static;
+    .sidebar a:hover{
+        background-color: #1f1f1f;
     }
-
-    #logomenu {
-        width: 35px;
-        height: 35px;
+    #login{
+    position: absolute ;
+    width:1.5%;
+    height:3%;
+    left:1520px;
+    top:15px;
+}
+    #fifa{
+        position: absolute;
+        font-family: 'Bebas Neue', sans-serif;
+        letter-spacing: 2px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color:white;
+        left:75px;
+        top:16px;;
     }
-
-    #fifa {
-        font-size: 16px;
+    #login{
+    position: absolute ;
+    width:2%;
+    height:4%;
+    left:1220px;
+    top:15px;
+}
+    #brasilflag{
+        position: absolute;
+        width:2%;
+        height:2.5%;
+        left:1280px;
+        top:20px;
     }
-
-    #album {
-        font-size: 11px;
-        width: 110px;
-        text-align: center;
+    .menu1{
+        height:50px;
+        background-color: rgb(0, 0, 0);
     }
-
-    #login,
-    #brasilflag {
-        width: 25px;
-        height: 25px;
-    }
-
-    .menu2 {
-        display: none;
-    }
-
-    #logocopa {
-        position: static;
-        display: block;
-        width: 80px;
-        height: auto;
-        margin: 15px auto 0 auto;
-    }
-
-    #textocopa {
-        position: static;
+    .menu2{
+        height:70px;
         background-color: rgb(35, 7, 133);
-        text-align: center;
-        padding: 12px;
-        font-size: 20px;
     }
 
-    .meio img,
-    #logocopa2,
-    #copa,
-    .mensagem h1,
-    .mensagem h3,
-    #jogostext,
-    .jogos,
-    #EUA,
-    #Marrocos,
-    #vermais {
-        position: static;
+    .cabecalho img{
+        position: absolute;
+        height:8%;
+        width:3%;
+        top:60px;
+        left:10px;
     }
-
-    .mensagem {
-        text-align: center;
-        margin-top: 30px;
-        padding: 0 15px;
-    }
-
-    .mensagem h1 {
-        font-size: 25px;
-    }
-
-    .mensagem h3 {
-        font-size: 16px;
-        margin-top: 10px;
-    }
-
-    #jogostext {
-        text-align: center;
-        font-size: 23px;
-        margin-top: 35px;
-    }
-
-    .jogos {
+    .meio img{
+        position: absolute;
         display: flex;
-        flex-direction: column;
+        left:910px;
+        justify-content: right;
+        width:450px;
+        height:600px;
+        top:-250px;
+        
+    }
+    #logocopa2{
+        position: absolute;
+        width:30%;
+        height:270%;
+        top:-200px;
+        left:1025px; 
+    }
+    #copa{
+        
+    }
+    #textocopa{
+        position: absolute;
+        top:75px;
+        left:70px;
+        color: white;
+    }
+    .menu2{
+        display:flex;
         align-items: center;
-        gap: 15px;
-        margin-top: 20px;
+        justify-content: right;
     }
-
-    .jogos div {
-        width: 90%;
-        height: auto;
-        min-height: 100px;
-        margin: 0;
+    .menu2 p{
+        color:white;
+        margin:20px;
     }
-
-    #copa {
-        display: block;
-        width: 100%;
-        height: auto;
-        margin-top: 30px;
+    .menu2 p:hover{
+        text-decoration: none;
+        color:yellow;
     }
-
-    #logocopa2 {
-        display: block;
-        width: 130px;
-        height: auto;
-        margin: 20px auto;
+    .mensagem h1{
+        position: absolute;
+        top:210px;
+        left:180px;
+        font-size:30px;
     }
+    .mensagem h3{
+        position: absolute;
+        top:250px;
+        left:270px;
+    }
+    #jogostext{
+        position: absolute;
+        top:350px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        left:30px;
+    }
+    .jogos{
+        position: absolute;
+        top:370px;
+        left:400px;
+        left:0px;
+        display: flex;
+    }
+    .jogos div{
+        background-color: rgb(226, 229, 231);
+        height:100px;
+        width:200px;
+        margin:30px;
+        border: 2px solid gray;
+    
+    }
+    .jogos p{
+        margin:10px;
+    }
+    #EUA{
+        position: absolute;
+        left:0px;
+        top:140px;
+        height:100px;
+        width:200px;
+    }
+    #Marrocos{
+        position: absolute;
+        left:260px;
+        top:140px;
+        height:100px;
+        width:200px;
+    }
+    #vermais{
+    position: absolute;
+    left:530px;
+    top:140px;
+    height:100px;
+    width:200px;
+    font-size:25px;
+}
+    
+   
 }
 @media screen and (max-width: 1380px) {
     *{
