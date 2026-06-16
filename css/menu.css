@@ -1,4 +1,130 @@
 
+@media screen and (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .menu1 {
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0 10px;
+    }
+
+    #logomenu,
+    #album,
+    #fifa,
+    #login,
+    #brasilflag {
+        position: static;
+    }
+
+    #logomenu {
+        width: 35px;
+        height: 35px;
+    }
+
+    #fifa {
+        font-size: 16px;
+    }
+
+    #album {
+        font-size: 11px;
+        width: 110px;
+        text-align: center;
+    }
+
+    #login,
+    #brasilflag {
+        width: 25px;
+        height: 25px;
+    }
+
+    .menu2 {
+        display: none;
+    }
+
+    #logocopa {
+        position: static;
+        display: block;
+        width: 80px;
+        height: auto;
+        margin: 15px auto 0 auto;
+    }
+
+    #textocopa {
+        position: static;
+        background-color: rgb(35, 7, 133);
+        text-align: center;
+        padding: 12px;
+        font-size: 20px;
+    }
+
+    .meio img,
+    #logocopa2,
+    #copa,
+    .mensagem h1,
+    .mensagem h3,
+    #jogostext,
+    .jogos,
+    #EUA,
+    #Marrocos,
+    #vermais {
+        position: static;
+    }
+
+    .mensagem {
+        text-align: center;
+        margin-top: 30px;
+        padding: 0 15px;
+    }
+
+    .mensagem h1 {
+        font-size: 25px;
+    }
+
+    .mensagem h3 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    #jogostext {
+        text-align: center;
+        font-size: 23px;
+        margin-top: 35px;
+    }
+
+    .jogos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .jogos div {
+        width: 90%;
+        height: auto;
+        min-height: 100px;
+        margin: 0;
+    }
+
+    #copa {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    #logocopa2 {
+        display: block;
+        width: 130px;
+        height: auto;
+        margin: 20px auto;
+    }
+}
 @media screen and (max-width: 1380px) {
     *{
         margin: 0; padding:0; box-sizing: border-box;
