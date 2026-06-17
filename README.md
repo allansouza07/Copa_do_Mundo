@@ -44,7 +44,7 @@
 - LOCALIZAÇÃO DO ESTÁDIO
 - CAPACIDADE
 
-## ABA DE BOLÇAO
+## ABA DE BOLÃO
 <h3>Na aba de estádios, que pode ser acessada pelo menu principal ou pela barra de opções laterais, é possível fazer alguns palpites e testar sua sorte! Essa aba foi feita com o auxílio do JavaScript, que coleta os dados enviados pelo usuário e imprime na tela. </h3>
 
 <h4>A aba de bolão possuí os seguintes palpites:</h4>
