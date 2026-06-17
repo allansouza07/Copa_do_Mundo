@@ -355,6 +355,10 @@
     #grupoD a{
         color: white;
     }
+    #responsividade {
+        position: relative;
+        left:100px;
+    }
 
     /*GRUPO E */
        #grupoE{
