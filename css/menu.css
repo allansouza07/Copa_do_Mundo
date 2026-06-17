@@ -525,7 +525,7 @@
         
     }
     #logocopa2{
-        width:50%;
+        width:40%;
         height:450%;
         top:-200px;
         left:1225px; 
@@ -554,6 +554,9 @@
     .menu2 p:hover{
         text-decoration: none;
         color:yellow;
+    }
+    .meio{
+        height:950px;
     }
     .mensagem h1{
         position: absolute;
