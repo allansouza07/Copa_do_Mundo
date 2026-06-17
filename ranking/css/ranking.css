@@ -1,0 +1,543 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+    *{
+        margin: 0; padding:0; box-sizing: border-box;
+    }
+    body{
+        
+    } 
+    #album{
+        top:15px;
+        position: absolute;
+        color:white;
+        left:1000px;
+    }
+    #logomenu{
+        position: absolute;
+        width:5%;
+        height:8%;
+        top:0px
+    }
+    .sidebar{
+        position: fixed;
+        top:0;
+        left:-250px;
+        width:250px;
+        height:100vh;
+        background-color: #111;
+        display: grid;
+        grid-template-rows: repeat(7,70px);
+        padding-top: 100px;
+        transition: 0.5s;
+        z-index: 999;
+    }
+    .sidebar.active{
+        left: 0;
+    }
+    .sidebar a{
+        color: white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+    .sidebar a:hover{
+        background-color: #1f1f1f;
+    }
+    #login{
+    position: absolute ;
+    width:1.5%;
+    height:3%;
+    left:1520px;
+    top:15px;
+}
+    #fifa{
+        position: absolute;
+        font-family: 'Bebas Neue', sans-serif;
+        letter-spacing: 2px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color:white;
+        left:75px;
+        top:16px;;
+    }
+    #login{
+    position: absolute ;
+    width:2%;
+    height:4%;
+    left:1220px;
+    top:15px;
+}
+    #brasilflag{
+        position: absolute;
+        width:2%;
+        height:2.5%;
+        left:1280px;
+        top:20px;
+    }
+    .menu1{
+        height:50px;
+        background-color: rgb(0, 0, 0);
+    }
+    .menu2{
+        height:70px;
+        background-color: rgb(35, 7, 133);
+    }
+
+    .cabecalho img{
+        position: absolute;
+        height:8%;
+        width:3%;
+        top:60px;
+        left:10px;
+    }
+        main > h1.princ{
+        margin-top: 1.8em;
+        text-align: center;
+        font-size: 2.2em;
+    }
+
+    section.selecoes{
+        display: block;
+        margin: auto;
+        margin-top: 1em;
+        text-align: justify;
+        width: 80%;
+    }
+
+    section.selecoes > h2{
+        font-size: 1.9em;
+        margin-top: 1.2em;
+    }
+
+    section.selecoes > p{
+        margin-top: 1em;
+        font-size: 1.2em;
+    }
+
+    /*section.selecoes > img{
+        display: block;
+        margin-top: 50em;
+        margin-right: auto;
+        margin-left: auto;
+    }*/
+
+    section.tabela{
+        display: block;
+        margin: auto;
+        margin-top: 2em;
+        padding-bottom: 2em;
+        text-align: justify;
+        width: 80%;
+    }
+    .menu2{
+        display:flex;
+        align-items: center;
+        justify-content: right;
+    }
+    .menu2 p{
+        color:white;
+        margin:20px;
+    }
+    .menu2 p:hover{
+        text-decoration: none;
+        color:yellow;
+    }
+
+    main > h1.princ{
+        margin-top: 5em;
+    }
+
+  #rodape{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:100px;
+        background-color: black;
+    }
+    
+   
+}
+@media screen and (max-width: 1500px) {
+    *{
+        margin: 0; padding:0; box-sizing: border-box;
+    }
+    body{
+        
+    } 
+    #album{
+        top:15px;
+        position: absolute;
+        color:white;
+        left:1000px;
+    }
+    #logomenu{
+        position: absolute;
+        width:5%;
+        height:8%;
+        top:0px
+    }
+    .sidebar{
+        position: fixed;
+        top:0;
+        left:-250px;
+        width:250px;
+        height:100vh;
+        background-color: #111;
+        display: grid;
+        grid-template-rows: repeat(7,70px);
+        padding-top: 100px;
+        transition: 0.5s;
+        z-index: 999;
+    }
+    .sidebar.active{
+        left: 0;
+    }
+    .sidebar a{
+        color: white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+    .sidebar a:hover{
+        background-color: #1f1f1f;
+    }
+    #login{
+    position: absolute ;
+    width:1.5%;
+    height:3%;
+    left:1520px;
+    top:15px;
+}
+    #fifa{
+        position: absolute;
+        font-family: 'Bebas Neue', sans-serif;
+        letter-spacing: 2px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color:white;
+        left:75px;
+        top:16px;;
+    }
+    #login{
+    position: absolute ;
+    width:2%;
+    height:4%;
+    left:1220px;
+    top:15px;
+}
+    #brasilflag{
+        position: absolute;
+        width:2%;
+        height:2.5%;
+        left:1280px;
+        top:20px;
+    }
+    .menu1{
+        height:50px;
+        background-color: rgb(0, 0, 0);
+    }
+    .menu2{
+        height:70px;
+        background-color: rgb(35, 7, 133);
+    }
+
+    .cabecalho img{
+        position: absolute;
+        height:8%;
+        width:3%;
+        top:60px;
+        left:10px;
+    }
+
+    main > h1.princ{
+        margin-top: 1.8em;
+        text-align: center;
+        font-size: 2.2em;
+    }
+
+    section.selecoes{
+        display: block;
+        margin: auto;
+        margin-top: 1em;
+        text-align: justify;
+        width: 80%;
+    }
+
+    section.selecoes > h2{
+        font-size: 1.9em;
+        margin-top: 1.2em;
+    }
+
+    section.selecoes > p{
+        margin-top: 1em;
+        font-size: 1.2em;
+    }
+
+    /*section.selecoes > img{
+        display: block;
+        margin-top: 50em;
+        margin-right: auto;
+        margin-left: auto;
+    }*/
+
+    section.tabela{
+        display: block;
+        margin: auto;
+        margin-top: 2em;
+        padding-bottom: 2em;
+        text-align: justify;
+        width: 80%;
+    }
+
+    .meio{
+        height:700px;
+    }
+    .meio img{
+        position: absolute;
+        display: flex;
+        left:910px;
+        justify-content: right;
+        width:450px;
+        height:700px;
+        top:-250px;
+        
+    }
+    #logocopa2{
+        position: absolute;
+        width:30%;
+        height:270%;
+        top:-200px;
+        left:1025px; 
+    }
+    
+    #textocopa{
+        position: absolute;
+        top:75px;
+        left:70px;
+        color: white;
+    }
+    .menu2{
+        display:flex;
+        align-items: center;
+        justify-content: right;
+    }
+    .menu2 p{
+        color:white;
+        margin:20px;
+    }
+    .menu2 p:hover{
+        text-decoration: none;
+        color:yellow;
+    }
+    .mensagem h1{
+        position: absolute;
+        top:210px;
+        left:180px;
+        font-size:30px;
+    }
+    .mensagem h3{
+        position: absolute;
+        top:250px;
+        left:270px;
+    }
+ #rodape{
+        position: relative;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:100px;
+        background-color: black;
+        z-index: 999;
+        
+    }
+}
+@media screen and (min-width: 1501px) {
+    
+     *{
+        margin: 0; padding:0; box-sizing: 0;
+    }
+    
+    #album{
+        top:18px;
+        position: absolute;
+        color:white;
+        left:1500px;
+    }
+    #logomenu{
+        position: absolute;
+        width:4%;
+        height:5%;
+        top:0px
+    }
+    #logocopa{
+        width:2.5%;
+        height:5%;
+    }
+    .sidebar{
+        position: fixed;
+        top:0;
+        left:-250px;
+        width:250px;
+        height:100vh;
+        background-color: #111;
+        display: grid;
+        grid-template-rows: repeat(7,70px);
+        padding-top: 100px;
+        transition: 0.5s;
+        z-index: 999;
+    }
+    .sidebar.active{
+        left: 0;
+    }
+    .sidebar a{
+        color: white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+    .sidebar a:hover{
+        background-color: #1f1f1f;
+    }
+    #login{
+    position: absolute ;
+    width:1.5%;
+    height:3%;
+    left:1520px;
+    top:15px;
+}
+    #fifa{
+        position: absolute;
+        font-family: 'Bebas Neue', sans-serif;
+        letter-spacing: 2px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color:white;
+        left:75px;
+        top:16px;;
+    }
+    #login{
+    position: absolute ;
+    width:1.5%;
+    height:3%;
+    left:1700px;
+    top:15px;
+}
+    #brasilflag{
+        position: absolute;
+        width:2%;
+        height:2%;
+        left:1800px;
+        top:20px;
+    }
+    .menu1{
+        height:50px;
+        background-color: rgb(0, 0, 0);
+    }
+    .menu2{
+        height:70px;
+        background-color: rgb(35, 7, 133);
+    }
+
+    .cabecalho img{
+        position: absolute;
+        height:8%;
+        width:3%;
+        top:60px;
+        left:10px;
+    }
+     main > h1.princ{
+        margin-top: 1.8em;
+        text-align: center;
+        font-size: 2.2em;
+    }
+
+    section.selecoes{
+        display: block;
+        margin: auto;
+        margin-top: 1em;
+        text-align: justify;
+        width: 80%;
+    }
+
+    section.selecoes > h2{
+        font-size: 1.9em;
+        margin-top: 1.2em;
+    }
+
+    section.selecoes > p{
+        margin-top: 1em;
+        font-size: 1.2em;
+    }
+
+    /*section.selecoes > img{
+        display: block;
+        margin-top: 50em;
+        margin-right: auto;
+        margin-left: auto;
+    }*/
+
+    section.tabela{
+        display: block;
+        margin: auto;
+        margin-top: 2em;
+        padding-bottom: 2em;
+        text-align: justify;
+        width: 80%;
+    }
+    .meio img{
+        position: absolute;
+        display: flex;
+        left:910px;
+        justify-content: right;
+        width:450px;
+        height:600px;
+        top:-250px;
+        
+    }
+    #logocopa2{
+        width:50%;
+        height:450%;
+        top:-200px;
+        left:1225px; 
+    }
+    #copa{
+        display: grid;
+        left:1050px;
+        height:100vh;
+        width: 755px;
+    }
+    #textocopa{
+        position: absolute;
+        top:75px;
+        left:70px;
+        color: white;
+    }
+    .menu2{
+        display:flex;
+        align-items: center;
+        justify-content: right;
+    }
+    .menu2 p{
+        color:white;
+        margin:20px;
+    }
+    .menu2 p:hover{
+        text-decoration: none;
+        color:yellow;
+    }
+  #rodape{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:100px;
+        background-color: black;
+    }
+   
+}
