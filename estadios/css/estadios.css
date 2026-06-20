@@ -89,6 +89,10 @@ body{
         height:70px;
         background-color: rgb(35, 7, 133);
     }
+    #logo{
+        left:-420px;
+        position: relative;
+    }
 
     .cabecalho img{
         position: absolute;
