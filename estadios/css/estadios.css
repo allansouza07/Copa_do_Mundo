@@ -345,6 +345,10 @@ body{
         height:5%;
         top:0px
     }
+    #logo{
+        position: relative;
+        left:-1000px;
+    }
     .sidebar{
         position: fixed;
         top:0;
@@ -420,7 +424,7 @@ body{
         top:60px;
         left:10px;
     }
-    .meio img{
+    .meio img{ 
         position: absolute;
         display: flex;
         left:910px;
